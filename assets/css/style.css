@@ -1,0 +1,75 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+}
+
+.navbar{
+        display: flex;
+        flex-wrap: nowrap;
+}
+
+.card-title {
+        font-weight: 300;
+        font-size: 20pt;
+}
+
+.card-text {
+        font-weight: 300;
+        font-size: 16pt;
+        color: #707070;
+}
+
+.cardAddress {
+        font-weight: 300;
+        font-size: 13pt;
+        color: #707070;
+        padding-left: 0.5rem;
+}
+
+.direccion {
+        display: flex;
+        align-items: baseline;
+}
+
+.discount {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20pt;
+        padding-left: 2rem;
+        color: #28A745;
+}
+
+.precio{
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        
+}
+
+.formTitle{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 21pt;
+}
+
+.textForm{
+        font-weight: 300;
+        font-size: 16pt;
+        color: #707070;
+
+}
+
+footer{
+       text-align: center; 
+       padding: 1rem;
+}
+
+.formulario, .navbar {
+        background-color: #28A745;
+}
